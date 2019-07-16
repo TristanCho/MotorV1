@@ -3,15 +3,17 @@ package Formularios;
 
 
 public class Frm_Motor extends javax.swing.JFrame {
-
-    Frm_Config FC = new Frm_Config();
-    Frm_Motor FM = new Frm_Motor();    
+    
+    Frm_Config FC;
+    Frm_Motor FM; 
      
      /**
      * Creates new form Frm_Motor
      */
     public Frm_Motor() {
         initComponents();
+    FC = new Frm_Config();
+    FM = new Frm_Motor();    
         FM.setVisible(true);  
         //PanelConfig.setLayout(null);
         //PanelConfig.setEnabled(false);
